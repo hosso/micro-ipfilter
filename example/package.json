@@ -1,0 +1,13 @@
+{
+  "name": "micro-ipfilter-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example of micro-ipfilter",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "micro": "^9.3.3"
+  }
+}
