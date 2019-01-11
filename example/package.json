@@ -5,9 +5,14 @@
   "description": "Example of micro-ipfilter",
   "main": "index.js",
   "scripts": {
-    "start": "micro"
+    "start": "micro",
+    "deploy": "now && now alias && now rm micro-ipfilter-example --safe --yes"
   },
   "dependencies": {
-    "micro": "^9.3.3"
+    "micro": "^9.3.3",
+    "micro-ipfilter": "hosso/micro-ipfilter"
+  },
+  "devDependencies": {
+    "now": "^13.0.4"
   }
 }

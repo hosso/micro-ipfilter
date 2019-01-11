@@ -10,6 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "is-match": "^1.0.0",
+    "micro": "^9.3.3"
   },
   "devDependencies": {
     "jest": "^23.5.0",
